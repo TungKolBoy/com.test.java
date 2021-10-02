@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="a" value="1"></parameter>
+  <parameter name="b" value="1"></parameter>
+  <parameter name="c" value="-2"></parameter>
+  <test thread-count="5" name="Test_with_parameters">
+    <classes>
+      <class name="test_Packages.DeltaLargerThanZero"/>
+    </classes>
+  </test> <!-- Test_with_parameters -->
+</suite> <!-- Suite -->
